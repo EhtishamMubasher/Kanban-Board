@@ -55,6 +55,8 @@ The application allows users to organize tasks across three workflow stages:
 
 ## 🖥️ Demo
 
+![Project Screenshot](assets/screenshot.png)
+
 ## 🛠️ Tech Stack
 
 | Technology | Purpose |
