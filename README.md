@@ -90,7 +90,7 @@ This is a static project – no build tools, package managers, or servers are re
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/kanban-board.git
+git clone https://github.com/EhtishamMubasher/kanban-board.git
 ```
 
 ### 2. Navigate to the project folder
