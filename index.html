@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board | Created by Ehtisham Mubasher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="page-header">
+        <h1>Kanban Board</h1>
+        <p>Welcome to the Kanban Board!</p>
+    </header>
+
+    <main>
+        <section class="task-form">
+            <form id="input-form">
+                <div class="form-group">
+                    <label for="todo-input" id="to-do-input-label">Task Title:</label>
+                    <input type="text" id="todo-input" placeholder="Enter task..." required>
+                </div>
+                <fieldset class="tag-group">
+                    <legend>Tags</legend>
+                    <label><input type="checkbox" name="tag" value="web" id="web">Web</label>
+                    <label><input type="checkbox" name="tag" value="mobile" id="mobile">Mobile</label>
+                </fieldset>
+
+                <fieldset class="priority-group">
+                    <legend>Priority</legend>
+                    <label><input type="radio" name="priority" value="high" required>High</label>
+                    <label><input type="radio" name="priority" value="medium">Medium</label>
+                    <label><input type="radio" name="priority" value="low">Low</label>
+                </fieldset>
+
+                <fieldset class="status-group">
+                    <legend>Status</legend>
+                    <label><input type="radio" name="column" value="todoList" checked>To Do</label>
+                    <label><input type="radio" name="column" value="inprogressList">In Progress</label>
+                    <label><input type="radio" name="column" value="completedList">Completed</label>
+                </fieldset>
+
+                <button type="submit" id="add-btn">
+                    <img src="assets/add.svg" alt="" aria-hidden="true">
+                    <span>Add Task</span>
+                </button>
+            </form>
+        </section>
+
+        <section class="board" id="board" aria-label="Kanban Board">
+        </section>
+
+    </main>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
