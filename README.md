@@ -2,6 +2,8 @@
 
 > A fully responsive, dynamic task management application built from scratch with vanilla HTML, CSS, and JavaScript.  
 > **Created by Ehtisham Mubasher**
+>  site is live at https://ehtishammubasher.github.io/Kanban-Board/
+
 
 [![Status](https://img.shields.io/badge/Status-In%20Development-yellow)](https://github.com/EhtishamMubasher/kanban-board)
 [![Made with](https://img.shields.io/badge/Made%20with-Vanilla%20JS-f7df1e.svg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
